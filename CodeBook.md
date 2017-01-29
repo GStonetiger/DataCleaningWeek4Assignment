@@ -1,4 +1,4 @@
-Code Book 
+##Code Book 
 
 The main R script, run_analysis.R, does the following.
 
