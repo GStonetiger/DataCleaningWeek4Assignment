@@ -20,8 +20,10 @@ The features.txt file contains all variable names for X_test.txt and X_train.txt
 
 To find out column indexes for all measurements on mean and std for each measurements, I use following statement.
 
+```r
 features <- read.table(file = "./UCI HAR Dataset/features.txt", stringsAsFactors = FALSE)
 ms <- grep("mean|std", features$V2)
+```
 
 Here is a list of all measurements on mean and std for each measurements.
 
